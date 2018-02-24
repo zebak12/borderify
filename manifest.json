@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Borderify",
+	"version": "1.0",
+	"description": "This is supposed to be the description of my first addon.",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["borderify.js"]		
+		}
+	]
+}
